@@ -1,5 +1,6 @@
 fun main() {
+    val server = Server()
     while(true) {
-        Server().Start()
+        server.Start()
     }
 }

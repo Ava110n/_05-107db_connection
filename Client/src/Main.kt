@@ -1,3 +1,5 @@
 fun main() {
-    Client().Start()
+    while(true) {
+        Client().Start()
+    }
 }
